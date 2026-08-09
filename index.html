@@ -205,7 +205,7 @@ footer{text-align:center;padding:2.5rem 3rem;border-top:1px solid var(--card-bor
         </a>
       </div>
       <div class="stat-bar">
-        <div class="stat"><h3>6</h3><p>Selected Projects</p></div>
+        <div class="stat"><h3>11</h3><p>Public Projects</p></div>
         <div class="stat"><h3>FT</h3><p>Model Validation</p></div>
         <div class="stat"><h3>II.</h3><p>Morgan Stanley Comp.</p></div>
       </div>
@@ -225,8 +225,8 @@ footer{text-align:center;padding:2.5rem 3rem;border-top:1px solid var(--card-bor
 <section id="projects">
   <div style="max-width:1100px;margin:0 auto">
     <div class="section-label">Research &amp; Projects</div>
-    <div class="section-title">Selected <em>Work</em></div>
-    <p class="section-desc">A curated selection of reproducible work in quantitative finance, model risk, temporal machine learning, spatial econometrics, and network science.</p>
+    <div class="section-title">Public <em>Projects</em></div>
+    <p class="section-desc">The complete public GitHub portfolio: quantitative finance, model risk, AI applications, temporal machine learning, spatial econometrics, Bayesian statistics, and network science.</p>
   </div>
 
   <div class="filter-bar">
@@ -235,13 +235,14 @@ footer{text-align:center;padding:2.5rem 3rem;border-top:1px solid var(--card-bor
     <button class="filter-btn" data-filter="bayes">Bayesian</button>
     <button class="filter-btn" data-filter="network">Networks</button>
     <button class="filter-btn" data-filter="risk">Risk</button>
+    <button class="filter-btn" data-filter="ai">AI / LLM</button>
     <button class="filter-btn" data-filter="ml">Machine Learning</button>
   </div>
 
   <div class="projects-grid">
   
   <!-- 1. SPATIAL -->
-  <a href="https://github.com/momarci13/Regional-Patterns-of-Educational-Inequality-in-the-European-Union" target="_blank" rel="noopener" class="project-card" data-cat="spatial" style="order:4">
+  <a href="https://github.com/momarci13/Regional-Patterns-of-Educational-Inequality-in-the-European-Union" target="_blank" rel="noopener" class="project-card" data-cat="spatial" style="order:6">
     <div class="card-visual">
       <!-- GRID / MAP STYLE -->
       <svg viewBox="0 0 400 220">
@@ -261,7 +262,7 @@ footer{text-align:center;padding:2.5rem 3rem;border-top:1px solid var(--card-bor
           <circle cx="260" cy="140" r="7"/>
         </g>
       </svg>
-      <div class="project-num">04</div>
+      <div class="project-num">06</div>
       <div class="overlay"><div class="arrow">&nearr;</div></div>
     </div>
     <div class="card-body">
@@ -310,14 +311,14 @@ footer{text-align:center;padding:2.5rem 3rem;border-top:1px solid var(--card-bor
   </a>
   
   <!-- 3. BAYESIAN -->
-  <a href="https://github.com/momarci13/Hierarchical-Compositional-Modeling-of-Polling-Bias-Hungarian-Party-Preferences-" target="_blank" rel="noopener" class="project-card" data-cat="bayes" style="order:6">
+  <a href="https://github.com/momarci13/Hierarchical-Compositional-Modeling-of-Polling-Bias-Hungarian-Party-Preferences-" target="_blank" rel="noopener" class="project-card" data-cat="bayes" style="order:7">
     <div class="card-visual">
       <!-- DISTRIBUTION -->
       <svg viewBox="0 0 400 220">
         <path d="M0 150 Q100 40 200 150 T400 150" fill="none" stroke="rgba(244,114,182,.5)" stroke-width="3"/>
         <path d="M0 170 Q100 80 200 170 T400 170" fill="none" stroke="rgba(244,114,182,.2)" stroke-width="2"/>
       </svg>
-      <div class="project-num">06</div>
+      <div class="project-num">07</div>
       <div class="overlay"><div class="arrow">&nearr;</div></div>
     </div>
     <div class="card-body">
@@ -382,7 +383,7 @@ footer{text-align:center;padding:2.5rem 3rem;border-top:1px solid var(--card-bor
   </a>
 
   <!-- 6. PREDICTION UNDER DISTRIBUTION SHIFT -->
-  <a href="https://github.com/momarci13/ShiftLab" target="_blank" rel="noopener" class="project-card" data-cat="ml" style="order:3">
+  <a href="https://github.com/momarci13/ShiftLab" target="_blank" rel="noopener" class="project-card" data-cat="ml" style="order:4">
     <div class="card-visual">
       <svg viewBox="0 0 400 220">
         <polyline points="20,145 75,138 125,148 150,55 190,72 235,64 260,142 305,118 335,50 380,62" fill="none" stroke="rgba(167,139,250,.65)" stroke-width="3"/>
@@ -390,7 +391,7 @@ footer{text-align:center;padding:2.5rem 3rem;border-top:1px solid var(--card-bor
           <line x1="150" y1="30" x2="150" y2="185"/><line x1="260" y1="30" x2="260" y2="185"/><line x1="335" y1="30" x2="335" y2="185"/>
         </g>
       </svg>
-      <div class="project-num">03</div>
+      <div class="project-num">04</div>
       <div class="overlay"><div class="arrow">&nearr;</div></div>
     </div>
     <div class="card-body">
@@ -402,6 +403,127 @@ footer{text-align:center;padding:2.5rem 3rem;border-top:1px solid var(--card-bor
       <h3>ShiftLab</h3>
       <p>Prequential benchmark for adaptive forgetting under regime shift, independently implemented in Python and OCaml with prediction agreement to 2e-11.</p>
       <span class="card-link">View research repository &rarr;</span>
+    </div>
+  </a>
+
+  <!-- 7. RAG AGENT -->
+  <a href="https://github.com/momarci13/rag-agent-mvp" target="_blank" rel="noopener" class="project-card" data-cat="ai" style="order:3">
+    <div class="card-visual">
+      <svg viewBox="0 0 400 220">
+        <rect x="30" y="65" width="65" height="90" rx="4" fill="rgba(167,139,250,.08)" stroke="rgba(167,139,250,.35)"/>
+        <g stroke="rgba(167,139,250,.35)"><line x1="45" y1="88" x2="80" y2="88"/><line x1="45" y1="102" x2="80" y2="102"/><line x1="45" y1="116" x2="72" y2="116"/></g>
+        <path d="M95 110 H155" stroke="rgba(59,130,246,.45)" stroke-dasharray="5 4"/>
+        <circle cx="195" cy="110" r="34" fill="rgba(59,130,246,.08)" stroke="rgba(59,130,246,.35)"/>
+        <circle cx="195" cy="110" r="9" fill="rgba(59,130,246,.6)"/>
+        <path d="M229 110 H285" stroke="rgba(52,211,153,.45)" stroke-dasharray="5 4"/>
+        <rect x="285" y="76" width="84" height="68" rx="4" fill="rgba(52,211,153,.07)" stroke="rgba(52,211,153,.35)"/>
+      </svg>
+      <div class="project-num">03</div>
+      <div class="overlay"><div class="arrow">&nearr;</div></div>
+    </div>
+    <div class="card-body">
+      <div class="tags">
+        <span class="tag tag-ai">RAG</span>
+        <span class="tag tag-data">LLM</span>
+        <span class="tag tag-econ">Vector Search</span>
+      </div>
+      <h3>RAG Agent</h3>
+      <p>Retrieval-augmented generation application combining document ingestion, semantic retrieval, and grounded large-language-model answers.</p>
+      <span class="card-link">View AI application &rarr;</span>
+    </div>
+  </a>
+
+  <!-- 8. LATENCY-CONSTRAINED INFERENCE -->
+  <a href="https://github.com/momarci13/LatencyEdge" target="_blank" rel="noopener" class="project-card" data-cat="ml" style="order:8">
+    <div class="card-visual">
+      <svg viewBox="0 0 400 220">
+        <line x1="55" y1="175" x2="355" y2="175" stroke="rgba(216,220,230,.2)"/>
+        <line x1="55" y1="175" x2="55" y2="35" stroke="rgba(216,220,230,.2)"/>
+        <circle cx="295" cy="78" r="9" fill="rgba(244,114,182,.55)"/>
+        <circle cx="108" cy="58" r="9" fill="rgba(52,211,153,.7)"/>
+        <circle cx="205" cy="54" r="9" fill="rgba(59,130,246,.7)"/>
+        <path d="M108 58 Q165 45 205 54 T295 78" fill="none" stroke="rgba(59,130,246,.25)" stroke-width="2" stroke-dasharray="5 4"/>
+      </svg>
+      <div class="project-num">08</div>
+      <div class="overlay"><div class="arrow">&nearr;</div></div>
+    </div>
+    <div class="card-body">
+      <div class="tags">
+        <span class="tag tag-ml">ML Systems</span>
+        <span class="tag tag-ai">Distillation</span>
+        <span class="tag tag-data">Quantization</span>
+      </div>
+      <h3>LatencyEdge</h3>
+      <p>Reproducible accuracy-latency benchmark for teacher-student distillation and dynamic int8 neural inference on CPUs.</p>
+      <span class="card-link">View benchmark &rarr;</span>
+    </div>
+  </a>
+
+  <!-- 9. ELECTION TURNING POINTS -->
+  <a href="https://github.com/momarci13/statszemle-valasztas" target="_blank" rel="noopener" class="project-card" data-cat="bayes" style="order:9">
+    <div class="card-visual">
+      <svg viewBox="0 0 400 220">
+        <g stroke="rgba(216,220,230,.12)"><line x1="30" y1="55" x2="370" y2="55"/><line x1="30" y1="110" x2="370" y2="110"/><line x1="30" y1="165" x2="370" y2="165"/></g>
+        <path d="M30 150 C90 145 105 115 150 120 S210 70 255 85 S320 48 370 62" fill="none" stroke="rgba(244,114,182,.65)" stroke-width="3"/>
+        <line x1="240" y1="35" x2="240" y2="180" stroke="rgba(226,179,64,.55)" stroke-dasharray="5 4"/>
+      </svg>
+      <div class="project-num">09</div>
+      <div class="overlay"><div class="arrow">&nearr;</div></div>
+    </div>
+    <div class="card-body">
+      <div class="tags">
+        <span class="tag tag-bayes">Bayesian</span>
+        <span class="tag tag-econ">Elections</span>
+        <span class="tag tag-data">R</span>
+      </div>
+      <h3>Election Turning-Point Analysis</h3>
+      <p>Statistical analysis of Hungarian election dynamics, polling anchors, structural changes, and model validation.</p>
+      <span class="card-link">View research repository &rarr;</span>
+    </div>
+  </a>
+
+  <!-- 10. BUDAPEST CENTRALITY -->
+  <a href="https://github.com/momarci13/Budapest-Public-Transport-Network-Centrality-Vulnerability-and-Robustness" target="_blank" rel="noopener" class="project-card" data-cat="network" style="order:10">
+    <div class="card-visual">
+      <svg viewBox="0 0 400 220">
+        <g stroke="rgba(251,191,36,.3)"><line x1="65" y1="150" x2="145" y2="70"/><line x1="145" y1="70" x2="235" y2="105"/><line x1="235" y1="105" x2="335" y2="55"/><line x1="145" y1="70" x2="180" y2="170"/><line x1="180" y1="170" x2="300" y2="155"/></g>
+        <g fill="rgba(251,191,36,.6)"><circle cx="65" cy="150" r="6"/><circle cx="145" cy="70" r="10"/><circle cx="235" cy="105" r="7"/><circle cx="335" cy="55" r="5"/><circle cx="180" cy="170" r="6"/><circle cx="300" cy="155" r="8"/></g>
+      </svg>
+      <div class="project-num">10</div>
+      <div class="overlay"><div class="arrow">&nearr;</div></div>
+    </div>
+    <div class="card-body">
+      <div class="tags">
+        <span class="tag tag-network">Network Science</span>
+        <span class="tag tag-econ">GTFS</span>
+        <span class="tag tag-data">Robustness</span>
+      </div>
+      <h3>Budapest Transport Centrality</h3>
+      <p>Graph centrality, backbone extraction, attack simulation, and Expected Shortfall analysis for public-transport vulnerability.</p>
+      <span class="card-link">View network study &rarr;</span>
+    </div>
+  </a>
+
+  <!-- 11. DATA QUALITY VALIDATOR -->
+  <a href="https://github.com/momarci13/Data-Quality-Validator-in-Python" target="_blank" rel="noopener" class="project-card" data-cat="risk" style="order:11">
+    <div class="card-visual">
+      <svg viewBox="0 0 400 220">
+        <rect x="65" y="42" width="270" height="140" rx="5" fill="rgba(52,211,153,.04)" stroke="rgba(52,211,153,.25)"/>
+        <g fill="none" stroke="rgba(52,211,153,.55)" stroke-width="3"><path d="M95 85 l12 12 23-28"/><path d="M95 125 l12 12 23-28"/></g>
+        <g stroke="rgba(216,220,230,.22)" stroke-width="2"><line x1="155" y1="88" x2="300" y2="88"/><line x1="155" y1="128" x2="275" y2="128"/></g>
+      </svg>
+      <div class="project-num">11</div>
+      <div class="overlay"><div class="arrow">&nearr;</div></div>
+    </div>
+    <div class="card-body">
+      <div class="tags">
+        <span class="tag tag-risk">Data Quality</span>
+        <span class="tag tag-econ">Time Series</span>
+        <span class="tag tag-data">Python</span>
+      </div>
+      <h3>Data Quality Validator</h3>
+      <p>Desktop validation toolkit for cross-sectional, panel, and time-series datasets with diagnostic tests, plots, overrides, and HTML reporting.</p>
+      <span class="card-link">View validation toolkit &rarr;</span>
     </div>
   </a>
 
