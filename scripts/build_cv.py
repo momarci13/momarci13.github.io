@@ -14,7 +14,7 @@ from reportlab.platypus import Paragraph
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUTPUT = ROOT / "marcell_molnar_cv.pdf"
+OUTPUT = ROOT / "Marcell_Molnar_CV.pdf"
 
 NAVY = colors.HexColor("#172033")
 BLUE = colors.HexColor("#2563EB")
