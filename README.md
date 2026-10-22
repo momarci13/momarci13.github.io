@@ -19,4 +19,4 @@ The deployed PDF is generated from the editable ReportLab source:
 python scripts/build_cv.py
 ```
 
-The script writes `marcell_molnar_cv.pdf`, which is the file linked from the site.
+The script writes `Marcell_Molnar_CV.pdf`, which is the file linked from the site.
